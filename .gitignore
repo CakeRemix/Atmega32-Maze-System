@@ -1,0 +1,90 @@
+# Build outputs and compiler-generated files
+*.o
+*.obj
+*.elf
+*.hex
+*.eep
+*.lss
+*.map
+*.sym
+*.srec
+*.bin
+
+# Debug files
+*.d
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Atmel Studio specific
+*.atsln
+*.cproj
+*.componentinfo.xml
+Debug/
+Release/
+.vs/
+*.atsuo
+*.atswp
+
+# AVR Studio specific
+*.aws
+*.aps
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+*~
+*.pdsbak
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+build/
+bin/
+obj/
+
+# Dependency directories
+deps/
+
+# Logs
+*.log
+
+# Simulation temporary files
+*.workspace
+
+# Python (if used for testing/scripting)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+
+# Documentation build
+docs/_build/
+site/
+
+# Proteus temporary files
+*.PWI
+Backup Of *.pdsprj
+
+# Keep these files
+!.gitkeep
+!*.md
